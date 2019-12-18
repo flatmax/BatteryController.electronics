@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Diodes_SMD_Local)(type KiCad)(uri "$(KIPRJMOD)/lib/Diodes_SMD_Local.pretty")(options "")(descr ""))
+  (lib (name songle)(type KiCad)(uri "$(KIPRJMOD)/lib/songle.pretty")(options "")(descr ""))
+  (lib (name holes)(type KiCad)(uri "$(KIPRJMOD)/lib/holes.pretty")(options "")(descr ""))
+  (lib (name kf7.62)(type KiCad)(uri "$(KIPRJMOD)/lib/kf762mm.pretty")(options "")(descr ""))
+  (lib (name switch)(type KiCad)(uri ${KIPRJMOD}/lib/switch.pretty)(options "")(descr ""))
+)

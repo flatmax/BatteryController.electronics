@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name BatProtect-rescue)(type Legacy)(uri ${KIPRJMOD}/BatProtect-rescue.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri /usr/share/kicad/library/power.lib)(options "")(descr ""))
+  (lib (name 74xx1)(type Legacy)(uri /usr/share/kicad/library/74xx.lib)(options "")(descr ""))
+  (lib (name srd-12vdc-sl-c)(type Legacy)(uri ${KIPRJMOD}/lib/srd-12vdc-sl-c.lib)(options "")(descr ""))
+  (lib (name diac)(type Legacy)(uri ${KIPRJMOD}/lib/diac.lib)(options "")(descr ""))
+  (lib (name eup3482)(type Legacy)(uri ${KIPRJMOD}/lib/eup3482.lib)(options "")(descr ""))
+  (lib (name scr)(type Legacy)(uri ${KIPRJMOD}/lib/scr.lib)(options "")(descr ""))
+  (lib (name lm317_sot223)(type Legacy)(uri ${KIPRJMOD}/lib/lm317_sot223.lib)(options "")(descr ""))
+  (lib (name usb-a_x2)(type Legacy)(uri ${KIPRJMOD}/lib/usb-a_x2.lib)(options "")(descr ""))
+  (lib (name Songle)(type Legacy)(uri ${KIPRJMOD}/lib/Songle.lib)(options "")(descr ""))
+)
