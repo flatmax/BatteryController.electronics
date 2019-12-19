@@ -1,1 +1,1 @@
-Use the BatteryController software to operate this hardware.
+Use the [BatteryController free software](BatteryController) to operate this hardware.
