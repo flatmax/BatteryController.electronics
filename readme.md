@@ -5,6 +5,8 @@ There are 3 relays for controlling the DC positive lines on battery chargers.
 There are 3 relays for controlling the DC positive lines on solar micro inverters.
 There is a master/slave switch. This allows you to choose which networked battery is master. There can be only one.
 
+See the file TopLevel.schematic.jpg for a top level system diagram.
+
 ## Controller software
 
 Use the [BatteryController free software](https://github.com/flatmax/BatteryController) to operate this hardware.
