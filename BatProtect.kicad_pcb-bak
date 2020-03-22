@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4+dfsg1-1)
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 37)
     (tracks 349)
     (zones 0)
     (modules 57)
@@ -39,8 +39,6 @@
     (zone_clearance 0.25)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 1)
-    (edge_width 0.15)
     (via_size 0.6)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -50,6 +48,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 1)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "flax.project27/"))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -2018,6 +2018,9 @@
     )
   )
 
+  (gr_text "Free hardware license\n\n1 Definitions\n\nIn this Licence, the following terms have the following meanings:\n\n“Documentation” means schematic diagrams, designs, circuit or circuit\nboard layouts, mechanical drawings, flow charts and descriptive text,\nand other explanatory material that is explicitly stated as being made\navailable under the conditions of this Licence. The Documentation may\nbe in any medium, including but not limited to computer files and\nrepresentations on paper, film, or any other media.\n\n“Product” means either an entire, or any part of a, device built using\nthe Documentation or the modified Documentation.\n\n2 Applicability\n\n2.1 The Licensee may copy, modify, communicate to the public and distribute\nverbatim copies of the Documentation, in any medium.\n\n2.2 The Licensee may communicate to the public and distribute the\nmodified Documentation (thereby in addition to being a Licensee also\nbecoming a Licensor), always provided that he shall:\n\na) license the modified Documentation under the terms and conditions\nof this Licence or, where applicable, a later version of this Licence\nas may be issued by Flatmax Pty Ltd.\n\n3 Warranty and liability\n\n3.1 DISCLAIMER – The Documentation any modified Documentation and\nany product  are provided \"as is\" and any express or implied warranties,\nincluding, but not limited to, implied warranties of merchantability, of\nsatisfactory quality, non-infringement of third party rights, and fitness for a\nparticular purpose or use are disclaimed in respect of the\nDocumentation, the modified Documentation or any Product. The Licensor\nmakes no representation that the Documentation, modified\nDocumentation, or any Product, does or will not infringe any patent,\ncopyright, trade secret or other proprietary right. The entire risk as\nto the use, quality, and performance of a Product shall be with the\nLicensee and not the Licensor. This disclaimer of warranty is an\nessential part of this Licence and a condition for the grant of any\nrights granted under this Licence. The Licensee warrants that it does\nnot act in a consumer capacity.\n\n3.2 LIMITATION OF LIABILITY – The Licensor shall have no liability\nfor direct, indirect, special, incidental, consequential, exemplary,\npunitive or other damages of any character including, without\nlimitation, procurement of substitute goods or services, loss of use,\ndata or profits, or business interruption, however caused and on any\ntheory of contract, warranty, tort (including negligence), product\nliability or otherwise, arising in any way in relation to the\nDocumentation, modified Documentation and/or the use, manufacture or\ndistribution of a Product, even if advised of the possibility of such\ndamages, and the Licensee shall hold the Licensor(s) free and harmless\nfrom any liability, costs, damages, fees and expenses, including\nclaims by third parties, in relation to such use.\n" (at 204.9 100.3) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Licensed under CERN OHL v.1.2" (at 131 158.3) (layer F.SilkS)
     (effects (font (size 1.1 1.1) (thickness 0.275)))
   )
