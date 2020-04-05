@@ -1,5 +1,7 @@
 # Home networked battery controller electronics
 
+Get a top view of the project here : https://imgur.com/a/hNvbikY
+
 Provides a relay controller for a home networked battery system. The PCB has a Pi formatted 40 pin header.
 There are 3 relays for controlling the DC positive lines on battery chargers.
 There are 3 relays for controlling the DC positive lines on solar micro inverters.
