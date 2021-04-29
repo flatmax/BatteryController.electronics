@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:BatProtect-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -190,7 +189,7 @@ L BatProtect-rescue:TEST_1P J5
 U 1 1 5D614D56
 P 5850 4500
 F 0 "J5" H 5850 4770 50  0000 C CNN
-F 1 "Charge1+" H 5850 4700 50  0000 C CNN
+F 1 "VAC" H 5850 4700 50  0000 C CNN
 F 2 "holes:Pin4mm" H 6050 4500 50  0001 C CNN
 F 3 "" H 6050 4500 50  0000 C CNN
 	1    5850 4500
@@ -258,8 +257,6 @@ DGND
 Connection ~ 12300 4800
 Text Label 2800 5050 1    60   ~ 0
 Charge1Enable
-Text Label 5850 4500 3    60   ~ 0
-Charger1+
 NoConn ~ 5600 5100
 $Comp
 L BatProtect-rescue:D D12
@@ -318,21 +315,8 @@ F 3 "" H 4900 4800 60  0000 C CNN
 	1    4900 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L BatProtect-rescue:TEST_1P J9
-U 1 1 5D644226
-P 5900 6500
-F 0 "J9" H 5900 6770 50  0000 C CNN
-F 1 "Charge2+" H 5900 6700 50  0000 C CNN
-F 2 "holes:Pin4mm" H 6100 6500 50  0001 C CNN
-F 3 "" H 6100 6500 50  0000 C CNN
-	1    5900 6500
-	1    0    0    -1  
-$EndComp
 Text Label 2850 7050 1    60   ~ 0
 Charge2Enable
-Text Label 5900 6500 3    60   ~ 0
-Charger2+
 NoConn ~ 5650 7100
 $Comp
 L BatProtect-rescue:D D21
@@ -378,8 +362,6 @@ $EndComp
 Text GLabel 2350 7350 0    60   Input ~ 0
 DGND
 Connection ~ 3400 7350
-Wire Wire Line
-	5650 6500 5900 6500
 $Comp
 L srd-12vdc-sl-c:SRD-12VDC-SL-C U7
 U 1 1 5D644257
@@ -391,21 +373,8 @@ F 3 "" H 4950 6800 60  0000 C CNN
 	1    4950 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L BatProtect-rescue:TEST_1P J13
-U 1 1 5D6503F2
-P 5850 8800
-F 0 "J13" H 5850 9070 50  0000 C CNN
-F 1 "Charge3+" H 5850 9000 50  0000 C CNN
-F 2 "holes:Pin4mm" H 6050 8800 50  0001 C CNN
-F 3 "" H 6050 8800 50  0000 C CNN
-	1    5850 8800
-	1    0    0    -1  
-$EndComp
 Text Label 2800 9350 1    60   ~ 0
 Charge3Enable
-Text Label 5850 8800 3    60   ~ 0
-Charger3+
 NoConn ~ 5600 9400
 $Comp
 L BatProtect-rescue:D D31
@@ -879,14 +848,12 @@ L BatProtect-rescue:TEST_1P J2
 U 1 1 5D659253
 P 13150 2400
 F 0 "J2" H 13150 2670 50  0000 C CNN
-F 1 "VBat1+" H 13150 2600 50  0000 C CNN
+F 1 "VAC" H 13150 2600 50  0000 C CNN
 F 2 "holes:Pin4mm" H 13350 2400 50  0001 C CNN
 F 3 "" H 13350 2400 50  0000 C CNN
 	1    13150 2400
 	1    0    0    -1  
 $EndComp
-Text Label 12950 4250 2    60   ~ 0
-uiVBat1+
 $Comp
 L BatProtect-rescue:TEST_1P J7
 U 1 1 5DA404BA
@@ -909,10 +876,6 @@ F 3 "" H 4200 8950 50  0000 C CNN
 	1    4000 8950
 	1    0    0    -1  
 $EndComp
-Text Label 12950 6150 2    60   ~ 0
-uiVBat1+
-Text Label 12950 8100 2    60   ~ 0
-uiVBat1+
 NoConn ~ 4300 10550
 Text Label 4000 4800 2    60   ~ 0
 VBat1+
@@ -926,8 +889,6 @@ Wire Wire Line
 	4000 8950 4000 9100
 Text Label 4000 9100 2    60   ~ 0
 VBat3+
-Text Label 13150 2400 2    60   ~ 0
-uiVBat1+
 $Comp
 L BatProtect-rescue:TEST_1P J3
 U 1 1 5DAD4D63
@@ -1017,4 +978,22 @@ Text Notes 12750 1900 0    60   ~ 0
 Most positive battery connector
 Text Notes 6700 9450 0    60   ~ 0
 Free hardware license\n\n1 Definitions\n\nIn this Licence, the following terms have the following meanings:\n\n“Documentation” means schematic diagrams, designs, circuit or circuit\nboard layouts, mechanical drawings, flow charts and descriptive text,\nand other explanatory material that is explicitly stated as being made\navailable under the conditions of this Licence. The Documentation may\nbe in any medium, including but not limited to computer files and\nrepresentations on paper, film, or any other media.\n\n“Product” means either an entire, or any part of a, device built using\nthe Documentation or the modified Documentation.\n\n2 Applicability\n\n2.1 The Licensee may copy, modify, communicate to the public and distribute\nverbatim copies of the Documentation, in any medium.\n\n2.2 The Licensee may communicate to the public and distribute the\nmodified Documentation (thereby in addition to being a Licensee also\nbecoming a Licensor), always provided that he shall:\n\na) license the modified Documentation under the terms and conditions\nof this Licence or, where applicable, a later version of this Licence\nas may be issued by Flatmax Pty Ltd.\n\n3 Warranty and liability\n\n3.1 DISCLAIMER – The Documentation any modified Documentation and\nany product  are provided "as is" and any express or implied warranties,\nincluding, but not limited to, implied warranties of merchantability, of\nsatisfactory quality, non-infringement of third party rights, and fitness for a\nparticular purpose or use are disclaimed in respect of the\nDocumentation, the modified Documentation or any Product. The Licensor\nmakes no representation that the Documentation, modified\nDocumentation, or any Product, does or will not infringe any patent,\ncopyright, trade secret or other proprietary right. The entire risk as\nto the use, quality, and performance of a Product shall be with the\nLicensee and not the Licensor. This disclaimer of warranty is an\nessential part of this Licence and a condition for the grant of any\nrights granted under this Licence. The Licensee warrants that it does\nnot act in a consumer capacity.\n\n3.2 LIMITATION OF LIABILITY – The Licensor shall have no liability\nfor direct, indirect, special, incidental, consequential, exemplary,\npunitive or other damages of any character including, without\nlimitation, procurement of substitute goods or services, loss of use,\ndata or profits, or business interruption, however caused and on any\ntheory of contract, warranty, tort (including negligence), product\nliability or otherwise, arising in any way in relation to the\nDocumentation, modified Documentation and/or the use, manufacture or\ndistribution of a Product, even if advised of the possibility of such\ndamages, and the Licensee shall hold the Licensor(s) free and harmless\nfrom any liability, costs, damages, fees and expenses, including\nclaims by third parties, in relation to such use.\n
+Wire Wire Line
+	5850 4500 5850 6500
+Connection ~ 5850 4500
+Wire Wire Line
+	5650 6500 5850 6500
+Connection ~ 5850 6500
+Wire Wire Line
+	5850 6500 5850 8800
+Text Label 13150 2400 0    60   ~ 0
+V_AC
+Text Label 12950 4250 2    60   ~ 0
+V_AC
+Text Label 12950 6150 2    60   ~ 0
+V_AC
+Text Label 12950 8100 2    60   ~ 0
+V_AC
+Text Label 5850 4700 2    60   ~ 0
+V_AC
 $EndSCHEMATC
