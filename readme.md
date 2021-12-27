@@ -1,8 +1,9 @@
 # Home networked battery controller electronics
 
-V2.x Uses AC switching, I have started using Lithium ion electric bicycle batteries.
+V2.x Uses AC switching, I have started using Lithium ion electric bicycle batteries :
+https://hackaday.io/project/182846-networked-home-battery-v2
 
-V1.x was DC switching, that project used AGM batteries, get a top view of the project here : https://imgur.com/a/hNvbikY
+V1.x was DC switching, that project used AGM batteries, find that project on "hack a day".
 
 Provides a relay controller for a home networked battery system. The PCB has a Pi formatted 40 pin header.
 There are 3 relays for controlling the AC positive lines on battery chargers.
